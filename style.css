@@ -1,0 +1,56 @@
+.btn {
+    width: 100%;
+
+}
+
+.trigo {
+    color: #fff;
+    background-color: #1750eb;
+
+}
+
+
+
+td {
+    width: 124px;
+    padding: 2px;
+}
+
+.num {
+    color: #fff;
+    background-color: #5d5d5d;
+    border: none;
+
+}
+
+.num:hover {
+    color: #fff;
+    background-color: #464646;
+    border: none;
+}
+
+
+table {
+    margin: 10px auto;
+}
+
+.extra {
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+
+}
+
+.extra:hover {
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+
+}
+
+#screen {
+    height: 100px;
+    font-size: 37px;
+    color: #0031b4;
+
+}
