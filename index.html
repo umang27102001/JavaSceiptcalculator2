@@ -169,16 +169,11 @@ for (btn of buttons) {
     btn.addEventListener("click", (e) => {
         let screen = document.getElementById("screen");
         function fact(num) {
-            if (num == 1) {
-                return 1;
+            int n=1;
+            for(int i=1;i<=num;i++){
+                n*=i;
             }
-            else {
-                return num * fact(num - 1)
-            }
-
         }
-
-
         //for Inverse trigonometric functions
         if (e.target.innerText == "sin-1") {
             screenVal += "asin(";
